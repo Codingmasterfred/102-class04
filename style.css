@@ -193,3 +193,39 @@ textarea{
 
 }
 
+.play{
+    display:flex;
+    justify-content: center;
+    height: 200px;
+    width:900px;
+    position:absolute;
+    top:190px;
+    right:150px;
+    
+}
+#music_pic{
+    height:230px;
+}
+
+#Play{font-size: x-large;
+    position:absolute;
+    top:189px; 
+    right:280px;
+    color:aqua;
+    background-color:hsl(0, 100%, 51%);
+    z-index:3;
+    width:300px;
+    padding-left:7px;
+    border-radius:10px;
+}
+
+#playMusicIcon{
+    width:38px;
+    height:43px;
+    position:absolute;
+    left:570px;
+    top:179px;
+    z-index:5;
+    color:aqua
+}
+

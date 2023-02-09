@@ -7,8 +7,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="npm i bootstrap-icons">
+    <script type="text/javascript">
+        window.onload = function() {
+             //run js code here
+        }
+  </script>
 </head>
 <body>
+    <script src="script.js"></script>
+    <div class="play">
+        <a onclick="playsong()" ondblclick="pausesong()">
+            <img id="music_pic" src="https://media.giphy.com/media/Dz4obj4Ii4RG0/giphy.gif">
+            <span id="Play">Click here to play music</span>
+            <svg id="playMusicIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">
+                <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+              </svg>
+        </a>
+
+    </div>
     <div class="main_page">
         <h1>F&G MUSIC</h1>
         <div class="Top_Options">
@@ -64,11 +80,11 @@
                 <br>
                 <span>Please communicate any technical issues down below</span>
             </p>
-            <textarea></textarea>
-            <button id="Submit_Button" type="submit">Submit</button>
+            <textarea id="textarea"></textarea>
+            <button onclick="getTextareaValue()" id="Submit_Button" type="submit">Submit</button>
         </div>
     </div>
-
     
+
 </body>
 </html>
