@@ -8,8 +8,8 @@ window.onload = function() {
 let song = '';
 
 function whodat() {
-    song = prompt('Who is your favorite artist?');
-    if(song != 'Nba youngboy' ){
+    song = prompt('Who is your favorite artist?').toLowerCase();
+    if(song != 'nba youngboy' ){
         alert('Wrong Answer!!😈');
 
     }else {
